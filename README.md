@@ -2,4 +2,4 @@
 # CalculadoraPrimos
 Aplicación Android para calcular números primos
 
-![](http://i.giphy.com/xT4uQDF3ngatB3p33O.gif)
+![](https://media.giphy.com/media/xT4uQDF3ngatB3p33O/giphy.gif)
