@@ -1,7 +1,7 @@
 package com.example.david.calculadoraprimos;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,7 +23,9 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
 
         btncalcular = (Button) findViewById(R.id.btnCalcular);
 
-        btncalcular.setOnClickListener(this);
+        if (btncalcular != null) {
+            btncalcular.setOnClickListener(this);
+        }
     }
 
     public void onClick(View view) {
@@ -34,12 +36,11 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
         int num;
 
 
-
         if (txtnumero.getText().toString().trim().length() == 0) {
 
             //Comprobamos que no este vacio el EditText
             Toast.makeText(Principal.this, "Introduzca Valor Numérico", Toast.LENGTH_SHORT).show();
-        } else{
+        } else {
             num = Integer.parseInt(txtnumero.getText().toString());
             area.setText(Calcular(num));
         }
@@ -66,10 +67,10 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
             }
             resultado = "El Primo Numero " + numero + " es el " + ultimoPrimo;
         } else {
-            if(numero == 0){
+            if (numero == 0) {
                 Toast.makeText(Principal.this, "Introduzca Valor mayor a 0", Toast.LENGTH_SHORT).show();
             }
-            if(numero == 1){
+            if (numero == 1) {
                 resultado = "El Primo Numero " + numero + " es el 1";
             }
         }
