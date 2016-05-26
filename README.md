@@ -2,4 +2,4 @@
 # CalculadoraPrimos
 Aplicación Android para calcular números primos
 
-![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+![Alt Text](http://imgur.com/GIZ7nM5)
