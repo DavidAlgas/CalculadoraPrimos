@@ -3,4 +3,3 @@
 Aplicación Android para calcular números primos
 
 ![Alt Text](http://i.imgur.com/laxsJHr.webm)
-[img]http://i.imgur.com/GIZ7nM5.gif[/img]
